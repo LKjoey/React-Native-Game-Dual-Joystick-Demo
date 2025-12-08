@@ -88,6 +88,7 @@ RN-Game-Joystick/
 ├── assets/
 │   └── images/              # App 图标
 │   └── display.gif          # APP 演示效果
+│   └── double_joysticks.png # 双摇杆实现代码  
 ├── .gitignore               # Git ignore file
 ├── app.json                 # Expo 配置
 ├── package.json             # 项目依赖
