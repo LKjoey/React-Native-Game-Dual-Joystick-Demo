@@ -66,11 +66,12 @@ npx expo start
 ```
 
 然后：
-  按下 i 键启动 iOS 模拟器
-  按下 a 键启动 Android 模拟器
-  输入i 模拟器
-  输入a 模拟器输入a
-  用手机上的Expo Go应用扫描二维码
+
+  按下 **i** 键启动 iOS 模拟器
+  
+  按下 **a** 键启动 Android 模拟器
+  
+  用 **Expo Go** 应用扫描二维码
 
 ## 项目结构
 
