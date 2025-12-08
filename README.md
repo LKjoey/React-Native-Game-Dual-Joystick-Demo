@@ -8,7 +8,7 @@
 可用于双摇杆控制的场景，如游戏、无人机和赛车遥控，下面是运行效果：
 
 <div align="center">
-    <img src="assets/display.gif" width="50%" alt="display animation">
+    <img src="assets/display.gif" width="25%" alt="display animation">
 </div>
 
 ### 双摇杆是如何实现的
