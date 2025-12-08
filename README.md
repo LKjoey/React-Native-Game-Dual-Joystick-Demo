@@ -3,7 +3,7 @@
 
 本项目是在 **[RN-Game-Joystick](https://github.com/adamthewebguy/RN-Game-Joystick)** 项目基础上进行简单的修改，原项目是一个摇杆控制一个小球，我在此基础上实现两个摇杆控制两个小球，摇杆之间互不影响，可以同时操控，可用于双摇杆控制的场景，如游戏、无人机和赛车遥控灯，下面是运行效果：
 
-<img src="assets/display.gif" width="50%" alt="display animation">
+<img src="assets/display.gif" width="50%" alt="display animation" style="display: block; margin: 0 auto;">
 
 ### 双摇杆是如何实现的
 默认情况下，React Native Gesture Handler（RNGH）在同一个 GestureHandlerRootView 内只允许一个手势处于活跃状态（active），即使它们区域不重叠。
