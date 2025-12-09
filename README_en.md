@@ -22,7 +22,7 @@ The key to achieving dual joysticks is that each Joystick must use an independen
     <img src="assets/double_joysticks.png" width="50%" alt="display animation">
 </div>
 
-The following document content is basically the original project documents translation content, only have modified on some description, details refer to the original project --> **[RN-Game-Joystick] (https://github.com/adamthewebguy/RN-Game-Joystick)**
+The following document content is basically the original project documents translation content, only have modified on some description, details refer to the original project --> **[RN-Game-Joystick](https://github.com/adamthewebguy/RN-Game-Joystick)**
 
 A minimal, performant dual joysticks controller implementation for React Native games, built with Expo, React Native Reanimated v4, and Gesture Handler.
 
