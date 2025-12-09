@@ -31,7 +31,7 @@ A minimal, performant dual joysticks controller implementation for React Native 
 - 🎮 Virtual dual joysticks with smooth gesture handling
 - ⚡ 60fps performance using frame-based animation on UI thread
 - 🎯 Boundary-constrained character movement
-- 📱 Works on iOS, Android, and Web
+- 📱  Works on iOS, Android, and Web
 - 🔧 TypeScript support with full type definitions
 - 📚 Comprehensive component documentation
 
