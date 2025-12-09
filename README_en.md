@@ -1,10 +1,32 @@
 # React Native Game Joystick Demo
 
-A minimal, performant joystick controller implementation for React Native games, built with Expo, React Native Reanimated v4, and Gesture Handler.
+This project is in the **[RN-Game-Joystick](https://github.com/adamthewebguy/RN-Game-Joystick)** project based on a simple modification,
+The original project was one joystick controlling one small ball. Based on this, I achieved two joysticks controlling two small balls. The joysticks do not affect each other and can be controlled simultaneously.
+It can be used in scenarios with dual joystick control, such as game, drone and racing car remote control. The following is the operation effect:
+
+<div align="center">
+    <img src="assets/display.gif" width="30%" alt="display animation">
+</div>
+
+How is the dual joystick achieved
+
+By default, **React Native GestureHandler(RNGH)** only allows one gesture to be active within the same **GestureHandlerRootView**, even if their regions do not overlap.
+
+To support multiple simultaneously activated gestures (such as dual joysticks, multi-finger drawing), each independent gesture component should be wrapped in its own **GestureHandlerRootView**.
+
+The key to achieving dual joysticks is that each Joystick must use an independent **GestureHandlerRootView** (view app\index.tsx).
+
+<div align="center">
+    <img src="assets/double_joysticks.png" width="50%" alt="display animation">
+</div>
+
+The following document content is basically the original project documents translation content, only have modified on some description, details refer to the original project --> **[RN-Game-Joystick] (https://github.com/adamthewebguy/RN-Game-Joystick)**
+
+A minimal, performant dual joysticks controller implementation for React Native games, built with Expo, React Native Reanimated v4, and Gesture Handler.
 
 ## Features
 
-- 🎮 Virtual joystick with smooth gesture handling
+- 🎮 Virtual dual joysticks with smooth gesture handling
 - ⚡ 60fps performance using frame-based animation on UI thread
 - 🎯 Boundary-constrained character movement
 - 📱 Works on iOS, Android, and Web
@@ -15,8 +37,8 @@ A minimal, performant joystick controller implementation for React Native games,
 
 This project demonstrates:
 
-- A draggable joystick controller that reports directional input
-- A character (red circle)that moves continuously based on joystick position
+- Dual draggable joysticks controller that reports directional input
+- Dual characters (Red and blue small balls)that moves continuously based on joystick position
 - Smooth animations running on the UI thread
 - Proper boundary detection to keep the character on screen
 
@@ -61,11 +83,14 @@ RN-Game-Joystick/
 │       └── README.md        # Detailed component documentation
 ├── assets/
 │   └── images/              # App icons
+│   └── display.gif          # APP display effect
+│   └── double_joysticks.png # Double joystick code 
 ├── .gitignore               # Git ignore file
 ├── app.json                 # Expo configuration
 ├── package.json             # Dependencies
 ├── tsconfig.json            # TypeScript configuration
-└── README.md                # This file
+└── README.md                # Chinese document
+└── README_en.md             # English document
 |__SETUP.md                  # Setup instructions
 ```
 
