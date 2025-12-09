@@ -81,7 +81,7 @@ npx expo start
 ```
 RN-Game-Joystick/
 ├── app/
-│   ├── _layout.tsx          # 根布局（最小）
+│   ├── _layout.tsx          # 根布局
 │   └── index.tsx            # 主游戏画面与操纵杆演示
 ├── components/
 │   └── game/
