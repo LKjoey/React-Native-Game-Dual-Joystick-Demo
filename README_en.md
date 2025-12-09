@@ -40,7 +40,7 @@ A minimal, performant dual joysticks controller implementation for React Native 
 This project demonstrates:
 
 - Dual draggable joysticks controller that reports directional input
-- Dual characters (Red and blue small balls)that moves continuously based on joystick position
+- Dual characters (Red and blue small balls) that moves continuously based on joystick position
 - Smooth animations running on the UI thread
 - Proper boundary detection to keep the character on screen
 
