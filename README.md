@@ -1,6 +1,6 @@
 # React Native 游戏双摇杆
 
-### [English document](README_en.md)   <— **Attention English-speaking international team members：here is the document you wanted**
+### [English document](README_en.md)   <— **Attention English-speaking international coder：here is the document you wanted**
  
 ### React Native Game Dual Joysticks Demo
 
